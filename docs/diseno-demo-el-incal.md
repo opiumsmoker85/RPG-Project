@@ -1,5 +1,5 @@
 # Demo "El Incal" — Documento de Diseño Narrativo
-### Adaptación no comercial para RPG Maker VX Ace
+### Adaptación no comercial para RPG Maker MZ
 
 > Nota sobre derechos: *El Incal* es una obra de Alejandro Jodorowsky (guion) y Jean Giraud "Mœbius" (dibujo), publicada originalmente por Les Humanoïdes Associés. Este documento es una **adaptación de fan, sin fines comerciales**, pensada como ejercicio de diseño de juego. No incluye ni reproduce arte, texto o assets originales del cómic: todo el material visual (tilesets, sprites, ilustraciones) deberá crearse desde cero o encargarse a artistas, inspirándose libremente en la estética sin copiar viñetas. Si en algún momento se plantea distribuir el demo públicamente, conviene revisar la política de fan-works y, si hace falta, contactar a los titulares de derechos.
 
@@ -7,7 +7,7 @@
 
 ## 1. Visión del proyecto
 
-Un demo corto (20–40 minutos de juego) que adapta el **arranque de "La Casta de los Metabarones"... perdón, de *El Incal*: Clase R"**: la caída de John Difool desde el Suelo Oficial hasta el Subsuelo de Terra-21, su encuentro con el Incal, y su huida de la Tecno-Tecnocracia y de los Berg. El objetivo del demo es transmitir el tono del cómic (sci-fi psicodélica, sátira burocrática, misticismo) usando los sistemas nativos de RPG Maker VX Ace: exploración top-down, diálogos con retratos, eventos con interruptores/variables y alguna mecánica ligera de sigilo/huida en vez de combate tradicional.
+Un demo corto (20–40 minutos de juego) que adapta el **arranque de *El Incal*: Clase R**: la caída de John Difool desde el Suelo Oficial hasta el Subsuelo de Terra-21, su encuentro con el Incal, y su huida de la Tecno-Tecnocracia y de los Berg. El objetivo del demo es transmitir el tono del cómic (sci-fi psicodélica, sátira burocrática, misticismo) usando los sistemas nativos de RPG Maker MZ: exploración top-down, diálogos con retratos, eventos con interruptores/variables y alguna mecánica ligera de sigilo/huida en vez de combate tradicional.
 
 **Pilares de diseño:**
 - **Narrativa por encima del combate.** El demo prioriza diálogo, exploración y decisiones pequeñas sobre peleas.
@@ -64,7 +64,7 @@ Terra-21 se representa como una **torre invertida de estratos**, del suelo miser
 - **Objeto de trama (Incal):** ítem gestionado por *Switch* global; en el Mapa 4 su recolección dispara la cinemática final (animación, cambio de música, mensaje de cierre).
 - **Sin menú de combate:** el *Party* puede limitarse a Difool en solitario; el menú de batalla y las bases de datos de armas/enemigos no son necesarias para el demo, salvo un enemigo "decorativo" para la secuencia de sigilo si se prefiere mostrar un *Game Over* real en vez de reinicio silencioso.
 
-*(Si más adelante quieres los scripts RGSS3 para el sigilo, el tinte progresivo o un sistema de diálogo estilizado tipo cómic, lo armamos en una pasada aparte — quedó fuera del alcance de este documento a petición tuya.)*
+*(Si más adelante quieres plugins JavaScript para MZ que refuercen el sigilo, el tinte progresivo o un sistema de diálogo estilizado tipo cómic, lo armamos en una pasada aparte — quedó fuera del alcance de este documento a petición tuya.)*
 
 ---
 
@@ -112,15 +112,15 @@ Terra-21 se representa como una **torre invertida de estratos**, del suelo miser
 
 ## 8. Próximos pasos sugeridos
 
-1. Crear el proyecto nuevo en RPG Maker VX Ace (`Archivo → Nuevo Proyecto`).
+1. Crear el proyecto nuevo en RPG Maker MZ (`Archivo → Nuevo Proyecto`).
 2. Montar los 4 mapas descritos en la sección 4 con los tilesets por defecto (o custom, respetando la paleta de la sección 7).
 3. Dar de alta a Difool como Actor 1 (sin clase de combate relevante) y a Deepo como Event-follower.
 4. Implementar la Escena 1 y 2 con eventos de página condicionada por Switches.
 5. Implementar el tramo de sigilo del Mapa 2 (puede empezar como versión simplificada: un solo camino con un evento de patrulla).
 6. Implementar la cinemática del Mapa 3 (autorun, Tint Screen, Scroll Map).
 7. Cerrar con la Escena 5 en el Mapa 4 y la pantalla de fin de demo.
-8. (Opcional, fuera de este documento) Pedir los scripts RGSS3 para pulir sigilo, transiciones y el "despertar" del Incal.
+8. (Opcional, fuera de este documento) Pedir los plugins JS para MZ que pulan sigilo, transiciones y el "despertar" del Incal.
 
 ---
 
-*Este documento cubre el diseño narrativo solicitado. Cuando quieras avanzar con el guion de eventos en formato copiable para el editor, los scripts RGSS3, o el plan detallado de mapas/tilesets, dímelo y lo preparamos como siguiente entrega.*
+*Este documento cubre el diseño narrativo solicitado. Como MZ usa datos en JSON plano (a diferencia del binario de VX Ace), también puedo generar directamente un esqueleto de proyecto real (data/*.json, plugins/) si lo pides. Cuando quieras avanzar con el guion de eventos en formato copiable para el editor, los plugins JS, o el plan detallado de mapas/tilesets, dímelo y lo preparamos como siguiente entrega.*
