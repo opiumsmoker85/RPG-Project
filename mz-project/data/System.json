@@ -1,0 +1,363 @@
+{
+  "gameTitle": "El Incal: Clase R (Demo)",
+  "versionId": 1,
+  "locale": "es_ES",
+  "windowTone": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "battleBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "battlerHue": 0,
+  "battlerName": "",
+  "currencyUnit": "créditos",
+  "defeatMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "editMapId": 1,
+  "elements": [
+    "",
+    "Físico"
+  ],
+  "equipTypes": [
+    "",
+    "Arma",
+    "Escudo",
+    "Cabeza",
+    "Cuerpo",
+    "Accesorio"
+  ],
+  "gameoverMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "optDisplayTp": false,
+  "optDrawTitle": true,
+  "optExtraExp": false,
+  "optFloorDeath": false,
+  "optFollowers": true,
+  "optSideView": false,
+  "optSlipDeath": false,
+  "optTransparent": false,
+  "partyMembers": [
+    1
+  ],
+  "skillTypes": [
+    "",
+    "Magia",
+    "Especial"
+  ],
+  "sounds": [
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    }
+  ],
+  "startMapId": 1,
+  "startX": 4,
+  "startY": 3,
+  "switches": [
+    "",
+    "Intro_Vista",
+    "Puerta_Forzada",
+    "Tiene_Linterna",
+    "Salio_Del_Subsuelo",
+    "Incal_Activado"
+  ],
+  "terms": {
+    "basic": [
+      "Nv",
+      "HP",
+      "HP",
+      "MP",
+      "MP",
+      "TP",
+      "TP",
+      "EXP",
+      "EXP"
+    ],
+    "commands": [
+      "Luchar",
+      "Huir",
+      "Atacar",
+      "Defender",
+      "Objetos",
+      "Habilidades",
+      "Equipo",
+      "Estado",
+      "Formación",
+      "Guardar",
+      "Salir del juego",
+      "Opciones",
+      "Peso",
+      null,
+      null,
+      "Usar",
+      "Equipar",
+      "Quitar",
+      "Cambiar",
+      null,
+      null,
+      "Nueva Partida",
+      "Continuar",
+      null,
+      "Ir a Título",
+      "Cancelar",
+      null,
+      null,
+      "Comprar",
+      "Vender"
+    ],
+    "params": [
+      "PV máx",
+      "PM máx",
+      "Ataque",
+      "Defensa",
+      "M.Ataque",
+      "M.Defensa",
+      "Agilidad",
+      "Suerte"
+    ],
+    "messages": {
+      "actionFailure": "¡No tuvo efecto en %1!",
+      "actorDamage": "%1 sufrió %2 de daño.",
+      "actorDrain": "%1 le robó %2 %3 a %4.",
+      "actorGain": "%1 recuperó %2 %3.",
+      "actorLoss": "%1 perdió %2 %3.",
+      "actorNoDamage": "%1 no sufrió daño.",
+      "actorNoHit": "¡Fallo! %1 no sufrió daño.",
+      "alwaysDash": "Correr siempre",
+      "bgmVolume": "Volumen de BGM",
+      "bgsVolume": "Volumen de BGS",
+      "buffAdd": "¡El %2 de %1 subió!",
+      "commandRemember": "Recordar comandos",
+      "counterAttack": "¡%1 contraatacó!",
+      "criticalToActor": "¡Un golpe crítico!",
+      "criticalToEnemy": "¡Un golpe crítico!",
+      "debuffAdd": "¡El %2 de %1 bajó!",
+      "defeat": "%1 fue derrotado.",
+      "emerge": "¡%1 apareció!",
+      "enemyDamage": "%1 sufrió %2 de daño.",
+      "enemyDrain": "%1 le robó %2 %3 a %4.",
+      "enemyGain": "%1 recuperó %2 %3.",
+      "enemyLoss": "%1 perdió %2 %3.",
+      "enemyNoDamage": "%1 no sufrió daño.",
+      "enemyNoHit": "¡Fallo! %1 no sufrió daño.",
+      "escapeFailure": "¡Pero no pudo escapar!",
+      "escapeStart": "¡%1 empieza a huir!",
+      "evasion": "¡%1 esquivó el ataque!",
+      "expNext": "hasta el siguiente %1",
+      "expTotal": "%1 actual",
+      "obtainExp": "¡%1 ganó %2 %3!",
+      "obtainGold": "¡%1\\G encontrados!",
+      "obtainItem": "¡%1 obtenido!",
+      "obtainSkill": "¡%1 aprendió %2!",
+      "levelUp": "¡%1 subió a %2 %3!",
+      "loadMessage": "Cargar qué partida?",
+      "magicEvasion": "¡%1 esquivó el ataque mágico!",
+      "magicReflection": "¡%1 reflejó el ataque!",
+      "commandRemember2": "",
+      "partyName": "%1",
+      "possession": "Posesión",
+      "preemptive": "¡%1 se adelantó!",
+      "saveMessage": "Guardar en qué partida?",
+      "showingMessage": "",
+      "substitute": "¡%1 protegió a %2!",
+      "surprise": "¡%1 fue sorprendido!",
+      "useItem": "%1 usó %2.",
+      "victory": "¡%1 ganó la batalla!"
+    }
+  },
+  "testBattlers": [],
+  "testTroopId": 0,
+  "title1Name": "",
+  "title2Name": "",
+  "titleBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "variables": [
+    ""
+  ],
+  "victoryMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "windowTone2": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "armorTypes": [
+    "",
+    "General"
+  ],
+  "weaponTypes": [
+    "",
+    "General"
+  ],
+  "attackMotions": [
+    {
+      "type": 0,
+      "weaponImageId": 0
+    }
+  ]
+}

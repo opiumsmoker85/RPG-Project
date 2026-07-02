@@ -1,0 +1,39 @@
+[
+  null,
+  {
+    "id": 1,
+    "expanded": false,
+    "name": "Cuarto de Difool",
+    "order": 1,
+    "parentId": 0,
+    "scrollX": 0,
+    "scrollY": 0
+  },
+  {
+    "id": 2,
+    "expanded": false,
+    "name": "Túneles del Subsuelo",
+    "order": 2,
+    "parentId": 0,
+    "scrollX": 0,
+    "scrollY": 0
+  },
+  {
+    "id": 3,
+    "expanded": false,
+    "name": "El Pozo",
+    "order": 3,
+    "parentId": 0,
+    "scrollX": 0,
+    "scrollY": 0
+  },
+  {
+    "id": 4,
+    "expanded": false,
+    "name": "Cámara del Incal",
+    "order": 4,
+    "parentId": 0,
+    "scrollX": 0,
+    "scrollY": 0
+  }
+]

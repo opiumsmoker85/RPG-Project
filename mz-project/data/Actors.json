@@ -1,0 +1,26 @@
+[
+  null,
+  {
+    "id": 1,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "Actor1",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "traits": [],
+    "faceIndex": 0,
+    "faceName": "Actor1",
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "John Difool",
+    "nickname": "Detective Clase R",
+    "note": "",
+    "profile": "Un detective degradado que sobrevive en el Subsuelo de Terra-21."
+  }
+]
