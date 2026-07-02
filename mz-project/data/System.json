@@ -2,6 +2,55 @@
   "gameTitle": "El Incal: Clase R (Demo)",
   "versionId": 1,
   "locale": "es_ES",
+  "advanced": {
+    "gameId": 1,
+    "screenWidth": 816,
+    "screenHeight": 624,
+    "uiAreaWidth": 816,
+    "uiAreaHeight": 624,
+    "numberFontFilename": "mplus-1m-regular.woff",
+    "fallbackFonts": "GameFont, AdvancedFont, sans-serif",
+    "mainFontFilename": "mplus-1m-regular.woff"
+  },
+  "airship": {
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "characterIndex": 0,
+    "characterName": "",
+    "startMapId": 0,
+    "startX": 0,
+    "startY": 0
+  },
+  "boat": {
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "characterIndex": 0,
+    "characterName": "",
+    "startMapId": 0,
+    "startX": 0,
+    "startY": 0
+  },
+  "ship": {
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "characterIndex": 0,
+    "characterName": "",
+    "startMapId": 0,
+    "startX": 0,
+    "startY": 0
+  },
   "windowTone": [
     0,
     0,
@@ -340,12 +389,6 @@
     "pitch": 100,
     "volume": 90
   },
-  "windowTone2": [
-    0,
-    0,
-    0,
-    0
-  ],
   "armorTypes": [
     "",
     "General"
